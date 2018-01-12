@@ -1,28 +1,20 @@
 # BMP280
 
-[![BMP280](BMP280_I2CS_A_1-600x400.png)](https://store.ncd.io/product/bmp280-digital-pressure-sensor-300-1100-hpa-i2c-mini-module/).
+[![BMP280](BMP280_I2C.png)](https://store.ncd.io/product/bmp280-digital-pressure-sensor-300-1100-hpa-i2c-mini-module/).
 
 # BMP280
-ADC121C_MQ8 is a digital pressure Sensor.
+BMP280 is a digital pressure Sensor.
 This Device is available from www.ncd.io [SKU: BMP280_I2CS]
 (https://store.ncd.io/product/bmp280-digital-pressure-sensor-300-1100-hpa-i2c-mini-module/)
-This Sample code can be used with Raspberry Pi, Arduino.
+This Sample code can be used with Arduino.
 
-Interfacing MQ8 Hydrogen Gas Sensor With Raspberry Pi : Python Library
-Hardware:
-1. <a href="https://store.ncd.io/product/mq-8-hydrogen-gas-sensor-adc121c-12-bit-adc-i2c-mini-module/">BMP280 Digital Pressure Sensor</a>
-2.  <a href="https://store.ncd.io/product/i2c-shield-for-raspberry-pi-3-pi2-with-outward-facing-i2c-port-terminates-over-hdmi-port/">Raspberry Pi I2C Shield</a>
-
-
-## Python
-Download and install smbus library on Raspberry pi. Steps to install smbus are provided at:
-https://pypi.python.org/pypi/smbus-cffi/0.5.1
-Download (or git pull) the code in pi. Run the program.
-
-```cpp
-$> python BMP280.py
-```
-The lib is a sample library, you will need to calibrate the sensor according to your application requirement.
+## Arduino
+Hardware needed to interface Hall effect sensor with Arduino
+1. <a href="https://store.ncd.io/product/i2c-shield-for-arduino-nano/">Arduino Nano</a>
+2. <a href="https://store.ncd.io/product/i2c-shield-for-arduino-micro-with-i2c-expansion-port/">Arduino Micro</a>
+3. <a href="https://store.ncd.io/product/i2c-shield-for-arduino-uno/">Arduino uno</a>
+4. <a href="https://store.ncd.io/product/dual-i2c-shield-for-arduino-due-with-modular-communications-interface/">Arduino Due</a>
+5. <a href="https://store.ncd.io/product/bmp280-digital-pressure-sensor-300-1100-hpa-i2c-mini-module/">BMP280 Digital Pressure Sensor</a>
 
 ## Arduino
 Download and install Arduino Software (IDE) on your machine. Steps to install Arduino are provided at:
