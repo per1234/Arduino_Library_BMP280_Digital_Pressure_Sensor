@@ -1,4 +1,3 @@
-# BMP280
 
 [![BMP280](BMP280_I2C.png)](https://store.ncd.io/product/bmp280-digital-pressure-sensor-300-1100-hpa-i2c-mini-module/).
 
